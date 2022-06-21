@@ -82,6 +82,14 @@ PrefabInstance:
     - target: {fileID: 2616308519043745261, guid: c08fef0ff0c5a45bfa17b7caad8aa9b6, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 7472489367437063108, guid: 314d245f1ae78b24c917deae7f1a2832, type: 3}
+      objectReference: {fileID: 4679390504295679099, guid: eca250b6493566246b900e3cebd0e1ea, type: 3}
+    - target: {fileID: 6383136515610791080, guid: c08fef0ff0c5a45bfa17b7caad8aa9b6, type: 3}
+      propertyPath: isPlacable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6383136515610791080, guid: c08fef0ff0c5a45bfa17b7caad8aa9b6, type: 3}
+      propertyPath: towerPrefab
+      value: 
+      objectReference: {fileID: 4150887898470838559, guid: 086f19e7a71a842fea552fc57ae862b6, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c08fef0ff0c5a45bfa17b7caad8aa9b6, type: 3}
