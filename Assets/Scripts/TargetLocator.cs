@@ -5,7 +5,7 @@ using UnityEngine;
 public class TargetLocator : MonoBehaviour
 {
     [SerializeField] Transform weapon;
-    [SerializeField] Transform target;
+    Transform target;
     public float turnSpeed = 20;
 
     // Start is called before the first frame update
