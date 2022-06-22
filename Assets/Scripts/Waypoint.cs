@@ -17,8 +17,7 @@ public class Waypoint : MonoBehaviour
     {
         if (isPlacable)
         {
-            GameObject tower = Instantiate(towerPrefab, prefabTransformPosition, Quaternion.identity);
-            tower.transform.Rotate(new Vector3(-90, 0, 0));
+            GameObject tower = Instantiate(towerPrefab, prefabTransformPosition, Quaternion.identity);            
             isPlacable = false;
         }
         
