@@ -6,7 +6,10 @@ public class Waypoint : MonoBehaviour
 {
     [SerializeField] bool isPlacable;
     [SerializeField] GameObject towerPrefab;
+
     private Vector3 prefabTransformPosition;
+
+    public bool IsPlaceable { get{return isPlacable;}}
 
     private void Start()
     {
@@ -17,9 +20,9 @@ public class Waypoint : MonoBehaviour
     {
         if (isPlacable)
         {
-            GameObject tower = Instantiate(towerPrefab, prefabTransformPosition, Quaternion.identity);            
+            Instantiate(towerPrefab, prefabTransformPosition, Quaternion.identity);            
             isPlacable = false;
         }
-        
+
     }
 }

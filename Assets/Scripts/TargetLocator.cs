@@ -22,14 +22,12 @@ public class TargetLocator : MonoBehaviour
 
     private void AimWeapon()
     {
+        if(target.gameObject != null)
+        {
+            Vector3 weaponLookAtPos = new Vector3(target.position.x, weapon.position.y, target.position.z);
+            weapon.LookAt(weaponLookAtPos);
+        }
 
-        //Vector3 toTargetVector = target.position - weapon.transform.position;
-        //float zRotation = (Mathf.Atan2(toTargetVector.y, toTargetVector.x) * Mathf.Rad2Deg);
-        //weapon.transform.rotation = Quaternion.Euler(new Vector3(0, 0, zRotation));
-
-
-        Vector3 weaponLookAtPos = new Vector3(target.position.x, weapon.position.y, target.position.z);
-        weapon.LookAt(weaponLookAtPos);
 
     }
 }

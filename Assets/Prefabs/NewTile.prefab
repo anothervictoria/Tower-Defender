@@ -101,7 +101,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0, 0
+  m_text: 3, 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -110,8 +110,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281677109
-  m_fontColor: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
+    rgba: 4281019189
+  m_fontColor: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -185,6 +185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
+  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
 --- !u!1 &2616308518589635484
 GameObject:
   m_ObjectHideFlags: 0
