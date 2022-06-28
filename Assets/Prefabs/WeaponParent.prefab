@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5985525733269178164}
   - component: {fileID: 6651226951529793403}
+  - component: {fileID: 2796161861373732060}
   m_Layer: 0
   m_Name: WeaponParent
   m_TagString: Untagged
@@ -47,7 +48,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weapon: {fileID: 6539782807074338933}
+  projectileParticle: {fileID: 3844309881298258169}
+  range: 15
   turnSpeed: 10
+--- !u!114 &2796161861373732060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421669721904970386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72f4764e7efb5441e9b1541e9075be92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1606864387430577852
 GameObject:
   m_ObjectHideFlags: 0
