@@ -5,6 +5,8 @@ using TMPro;
 using System;
 
 [ExecuteAlways]
+[RequireComponent(typeof(TextMeshPro))]
+
 public class CoordinateLabeler : MonoBehaviour
 {
     [SerializeField] Color defaultColour = Color.gray;
@@ -28,6 +30,7 @@ public class CoordinateLabeler : MonoBehaviour
         {
             DisplayCoordinates();
             UpdateObjectName();
+            label.enabled = true;
         }
 
         ColourCoordinates();
