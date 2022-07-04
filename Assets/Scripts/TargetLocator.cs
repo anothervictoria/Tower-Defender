@@ -5,12 +5,18 @@ using UnityEngine;
 
 public class TargetLocator : MonoBehaviour
 {
+    //[SerializeField] Transform weapon;
+    
+    //[SerializeField] float range = 300f;
+    //[SerializeField] float targetDistance;
+    //Transform target;
+    //public float turnSpeed = 20;
+
     [SerializeField] Transform weapon;
-    [SerializeField] ParticleSystem projectileParticle;
-    [SerializeField] float range = 300f;
-    [SerializeField] float targetDistance;
+    [SerializeField] ParticleSystem projectileParticles;
+    [SerializeField] float range = 15f;
     Transform target;
-    public float turnSpeed = 20;
+
 
     void Update()
     {
@@ -33,22 +39,30 @@ public class TargetLocator : MonoBehaviour
                 closestTarget = enemy.transform;
                 maxDistance = targetDistance;
             }
-
         }
+
         target = closestTarget;
+
 
     }
 
     private void AimWeapon()
     {
-        targetDistance = Vector3.Distance(weapon.transform.position, target.position);
-        if(target.gameObject != null)
-        {
-            Vector3 weaponLookAtPos = new Vector3(target.position.x, weapon.position.y, target.position.z);
-            weapon.LookAt(weaponLookAtPos);
-        }
+        //targetDistance = Vector3.Distance(weapon.transform.position, target.position);
+        //if(target.gameObject != null)
+        //{
+        //    Vector3 weaponLookAtPos = new Vector3(target.position.x, weapon.position.y, target.position.z);
+        //    weapon.LookAt(weaponLookAtPos);
+        //}
 
-        if(targetDistance <= range)
+        
+
+        float targetDistance = Vector3.Distance(weapon.transform.position, target.position);
+
+        Vector3 weaponLookAtPos = new Vector3(target.position.x, weapon.position.y, target.position.z);
+        weapon.LookAt(weaponLookAtPos);
+
+        if (targetDistance <= range)
         {
             Attack(true);
         }
@@ -56,11 +70,13 @@ public class TargetLocator : MonoBehaviour
         {
             Attack(false);
         }
+
     }
 
     private void Attack(bool isActive)
     {
-        var emissionModule = projectileParticle.emission;
+        var emissionModule = projectileParticles.emission;
         emissionModule.enabled = isActive;
+
     }
 }
