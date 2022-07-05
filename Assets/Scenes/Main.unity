@@ -1661,8 +1661,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  defaultColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  blockedColour: {r: 0, g: 0, b: 0, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &153365650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4905,8 +4907,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  defaultColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  blockedColour: {r: 0, g: 0, b: 0, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &501015529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6518,8 +6522,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  defaultColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  blockedColour: {r: 0, g: 0, b: 0, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &696254461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9202,8 +9208,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  defaultColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  blockedColour: {r: 0, g: 0, b: 0, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &865541480
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10677,8 +10685,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  defaultColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  blockedColour: {r: 0, g: 0, b: 0, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &971993505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13213,8 +13223,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  defaultColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  blockedColour: {r: 0, g: 0, b: 0, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1231794421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15561,8 +15573,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  defaultColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  blockedColour: {r: 0, g: 0, b: 0, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1494498869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16615,8 +16629,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  defaultColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  blockedColour: {r: 0, g: 0, b: 0, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1625431867
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17826,8 +17842,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  defaultColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  blockedColour: {r: 0, g: 0, b: 0, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1684704236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18228,8 +18246,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  defaultColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  blockedColour: {r: 0, g: 0, b: 0, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1707193541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19348,8 +19368,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  defaultColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  blockedColour: {r: 0, g: 0, b: 0, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1832888843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19535,8 +19557,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da42277adb67d4d2087b010069f19c7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
-  blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  defaultColour: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  blockedColour: {r: 0, g: 0, b: 0, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!114 &1838342811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21671,6 +21695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2065725788}
   - component: {fileID: 2065725787}
+  - component: {fileID: 2065725789}
   m_Layer: 0
   m_Name: Object Pool
   m_TagString: Untagged
@@ -21708,6 +21733,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2065725789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2065725786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f275348a57b64431f9b5c8ec03693220, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentSearchNode:
+    coordinates: {x: 5, y: 5}
+    isWalkable: 0
+    isExplored: 0
+    isPath: 0
 --- !u!1001 &2069807557
 PrefabInstance:
   m_ObjectHideFlags: 0
