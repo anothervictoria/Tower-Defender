@@ -5,18 +5,17 @@ using UnityEngine;
 
 public class TargetLocator : MonoBehaviour
 {
-    //[SerializeField] Transform weapon;
-    
-    //[SerializeField] float range = 300f;
-    //[SerializeField] float targetDistance;
-    //Transform target;
-    //public float turnSpeed = 20;
-
     [SerializeField] Transform weapon;
     [SerializeField] ParticleSystem projectileParticles;
     [SerializeField] float range = 15f;
     Transform target;
+    private Vector3 position;
+    private AudioSource audioSource;
 
+    private void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     void Update()
     {
@@ -48,15 +47,6 @@ public class TargetLocator : MonoBehaviour
 
     private void AimWeapon()
     {
-        //targetDistance = Vector3.Distance(weapon.transform.position, target.position);
-        //if(target.gameObject != null)
-        //{
-        //    Vector3 weaponLookAtPos = new Vector3(target.position.x, weapon.position.y, target.position.z);
-        //    weapon.LookAt(weaponLookAtPos);
-        //}
-
-        
-
         float targetDistance = Vector3.Distance(weapon.transform.position, target.position);
 
         Vector3 weaponLookAtPos = new Vector3(target.position.x, weapon.position.y, target.position.z);
@@ -77,6 +67,9 @@ public class TargetLocator : MonoBehaviour
     {
         var emissionModule = projectileParticles.emission;
         emissionModule.enabled = isActive;
-
+        if (!audioSource.isPlaying)
+        {
+            audioSource.Play();
+        }
     }
 }
