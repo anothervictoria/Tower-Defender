@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2616308518045150396}
   - component: {fileID: 2616308518045150395}
   - component: {fileID: 8791005370581095288}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -187,6 +187,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultColour: {r: 0.20754719, g: 0.16936633, b: 0.16936633, a: 1}
   blockedColour: {r: 0.735849, g: 0.6862139, b: 0.6213065, a: 1}
+  exploredColour: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  pathColour: {r: 1, g: 0.5, b: 0, a: 1}
 --- !u!1 &2616308518589635484
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,7 +200,7 @@ GameObject:
   - component: {fileID: 2616308518589635485}
   - component: {fileID: 6383136515610791080}
   - component: {fileID: 1326506620907131877}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: NewTile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -260,7 +262,7 @@ GameObject:
   - component: {fileID: 2616308519043745259}
   - component: {fileID: 2616308519043745261}
   - component: {fileID: 2616308519043745260}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}

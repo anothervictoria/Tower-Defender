@@ -4,9 +4,14 @@ using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
-    [SerializeField] int cost = 75;
-    Vector3 position;
+    [SerializeField] private int cost = 75;
+    [SerializeField] private float buildDelay = 0.5f;
+    private Vector3 position;
 
+    private void Start()
+    {
+        StartCoroutine(Build());
+    }
 
     public bool CreateTower(Tower tower, Vector3 position)
     {
@@ -26,6 +31,29 @@ public class Tower : MonoBehaviour
         }
 
         return false;
+    }
+
+    private IEnumerator Build()
+    {
+        foreach (Transform child in transform)
+        {
+            child.gameObject.SetActive(false);
+            foreach(Transform grandchild in child)
+            {
+                grandchild.gameObject.SetActive(false);
+            }
+        }
+
+        foreach (Transform child in transform)
+        {
+            child.gameObject.SetActive(true);
+            yield return new WaitForSeconds(buildDelay);
+            foreach (Transform grandchild in child)
+            {
+                grandchild.gameObject.SetActive(true);
+            }
+        }
+
     }
 }
 
