@@ -13,6 +13,8 @@ public class PathFinder : MonoBehaviour
     Node destinationNode;
     Node currentSearchNode;
 
+    Tile tile;
+
     Queue<Node> frontier = new Queue<Node>();
     Dictionary<Vector2Int, Node> reached = new Dictionary<Vector2Int, Node>();
 
@@ -23,6 +25,7 @@ public class PathFinder : MonoBehaviour
     private void Awake()
     {
         gridManager = FindObjectOfType<GridManager>();
+        tile = FindObjectOfType<Tile>();
         if(gridManager != null)
         {
             grid = gridManager.Grid;
@@ -122,6 +125,7 @@ public class PathFinder : MonoBehaviour
 
     public bool WillBlockPath(Vector2Int coordinates)
     {
+
         if (grid.ContainsKey(coordinates))
         {
             bool previousState = grid[coordinates].isWalkable;
@@ -130,11 +134,12 @@ public class PathFinder : MonoBehaviour
             List<Node> newPath = GetNewPath();
             grid[coordinates].isWalkable = previousState;
 
-            if(newPath.Count <= 1)
+            if(newPath.Count <= 1 && !tile.IsPlaceable)
             {
                 GetNewPath();
                 return true;
             }
+
         }
 
         return false;

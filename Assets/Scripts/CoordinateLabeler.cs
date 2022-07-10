@@ -9,9 +9,9 @@ using System;
 
 public class CoordinateLabeler : MonoBehaviour
 {
-    [SerializeField] Color defaultColour = Color.gray;
+    [SerializeField] Color defaultColour = Color.green;
     [SerializeField] Color blockedColour = Color.black;
-    [SerializeField] Color exploredColour = Color.yellow;
+    [SerializeField] Color exploredColour = Color.grey;
     [SerializeField] Color pathColour = new Color(1f, 0f, 1f);
 
     TextMeshPro label;
