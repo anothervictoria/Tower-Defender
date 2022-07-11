@@ -152,7 +152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9129203536521364141, guid: 440d7d7c4187c444f82b4a9d45964cb6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 82.1
+      value: 82.10042
       objectReference: {fileID: 0}
     - target: {fileID: 9129203536521364141, guid: 440d7d7c4187c444f82b4a9d45964cb6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -160,11 +160,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9129203536521364141, guid: 440d7d7c4187c444f82b4a9d45964cb6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 29.6
+      value: 29.599957
       objectReference: {fileID: 0}
     - target: {fileID: 9129203536521364141, guid: 440d7d7c4187c444f82b4a9d45964cb6, type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.08281555
+      value: -0.22776988
       objectReference: {fileID: 0}
     - target: {fileID: 9129203536521364141, guid: 440d7d7c4187c444f82b4a9d45964cb6, type: 3}
       propertyPath: m_LocalRotation.x
@@ -172,7 +172,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9129203536521364141, guid: 440d7d7c4187c444f82b4a9d45964cb6, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.9965649
+      value: 0.97371507
       objectReference: {fileID: 0}
     - target: {fileID: 9129203536521364141, guid: 440d7d7c4187c444f82b4a9d45964cb6, type: 3}
       propertyPath: m_LocalRotation.z
@@ -184,7 +184,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9129203536521364141, guid: 440d7d7c4187c444f82b4a9d45964cb6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 189.501
+      value: 206.332
       objectReference: {fileID: 0}
     - target: {fileID: 9129203536521364141, guid: 440d7d7c4187c444f82b4a9d45964cb6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -13349,7 +13349,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1183937036}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 81.27, y: 14.45, z: 20.789997}
+  m_LocalPosition: {x: 77.9, y: 14.45, z: 22.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21997,7 +21997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startCoordinates: {x: 5, y: 1}
-  destinationCoordinates: {x: 16, y: 7}
+  destinationCoordinates: {x: 15, y: 7}
 --- !u!1001 &2077341111
 PrefabInstance:
   m_ObjectHideFlags: 0
